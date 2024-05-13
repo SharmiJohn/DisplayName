@@ -22,7 +22,7 @@ function App() {
         <br/>
         <button>Submit</button>
       </form>
-      {fullname.length!==0&& <p>Full Name:{fullname}</p>}
+      {fullname.length!==0&& <p>Full Name:{` ${fullname}`}</p>}
 
       
     
