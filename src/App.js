@@ -14,10 +14,10 @@ function App() {
     <div>
       <h1>Full Name Display</h1>
       <form onSubmit={(e)=>{handlesubmit(e)}}>
-        <label>First Name</label>
+        <label>First Name:</label>
         <input value={name} onChange={(e)=>{setname(e.target.value)}} required/>
         <br/>
-        <label>Last Name</label>
+        <label>Last Name:</label>
         <input value={last} onChange={(e=>{setlast(e.target.value)})} required/>
         <br/>
         <button>Submit</button>
