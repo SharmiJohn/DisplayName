@@ -15,12 +15,12 @@ function App() {
       <h1>Full Name Display</h1>
       <form onSubmit={(e)=>{handlesubmit(e)}}>
         <label>First Name:</label>
-        <input value={name} onChange={(e)=>{setname(e.target.value)}} required/>
+        <input type="text" value={name} onChange={(e)=>{setname(e.target.value)}} required/>
         <br/>
         <label>Last Name:</label>
-        <input value={last} onChange={(e=>{setlast(e.target.value)})} required/>
+        <input type="text" value={last} onChange={(e=>{setlast(e.target.value)})} required/>
         <br/>
-        <button>Submit</button>
+        <button type="text">Submit</button>
       </form>
       {fullname.length!==0&& <p>Full Name:{` ${fullname}`}</p>}
 
