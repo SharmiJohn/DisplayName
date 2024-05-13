@@ -20,7 +20,7 @@ function App() {
         <label>Last Name:</label>
         <input type="text" value={last} onChange={(e=>{setlast(e.target.value)})} required/>
         <br/>
-        <button type="text">Submit</button>
+        <button type="submit">Submit</button>
       </form>
       {fullname.length!==0&& <p>Full Name:{` ${fullname}`}</p>}
 
